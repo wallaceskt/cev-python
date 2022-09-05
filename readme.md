@@ -33,9 +33,7 @@ import math
 ```
 
 Importando apenas a função que calcula a raiz quadrada:
-
-```python
-from math import sqrt
+('A')
 ```
 
 Ao importar somente a função `sqrt` nenhuma outra funcionalidade pode ser utilizada no programa.
@@ -56,10 +54,7 @@ Para qualquer pessoa é uma frase, mas qualquer linguagem de programação chama
 
 Para o Python toda cadeia de texto deve estar entre aspas simples ou entre aspas duplas. Existe também a possibilidade de usar três aspas duplas.
 
-Atribuindo a string acima a uma variável:
-
-```python
-frase = 'Curso em Vídeo Python'
+Atribuindo a string ac('A')o Python'
 ```
 
 O Python vai colocar essa frase na memória do computador, mas não de forma inteira. Ele vai criar mini espaços dentro da memória do computador e dentro de cada mini espaço vai uma letra. Cada um desses mini espaços vai receber um índice, um número sequencial começando com 0 e indo até onde for necessário para caber todos caracteres da frase (incluindo os espaços entre palavras). Isso permite facilmente executar algumas operações:
@@ -72,10 +67,7 @@ frase[9]
 
 # Fatiando para conseguir os caracteres do índice 9 até o 12
 # A técnica para de fatiar no 13, mas não o exibe
-frase[9:13]
-# Saída:
-# V
-
+frase[9:13]('A')
 # O mesmo acontece com o fatiamento de 9 até o 21
 frase[9:21]
 # Saída:
@@ -88,12 +80,7 @@ frase[9:21:2]
 
 # Fatiando de 0 até o 5
 frase[:5]
-# Saída:
-# Curso
-
-# Fatiando de 15 até o final
-frase[15:]
-# Saída:
+# Saída:('A')
 # Python
 
 # Fatiando do 9 até o final pulando de 3 em 3 caracteres
